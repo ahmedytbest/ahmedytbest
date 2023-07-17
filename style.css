@@ -4,8 +4,6 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-
-
 h1 {
     color:black;
     font-weight:13px;
@@ -13,9 +11,19 @@ h1 {
     font-size:xx-large;
     font-family:arial; 
 }
-a{
+a {
     color:slategray;
 }
 a :hover {
     color:brown;
+}
+.smoothButton {
+    border:chartreuse;
+    text-align: center;
+    color:brown;
+    border-radius: 100px;
+    padding: 10px 24px ;
+    background-color: rgb(227, 214, 199);
+    font-size: 16px ;
+    cursor: pointer;
 }
