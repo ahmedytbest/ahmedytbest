@@ -1,29 +1,46 @@
 body{
-    background-color: rgb(131, 131, 131);
-    text-shadow: rgb(0, 0, 0);
-    font-family:Arial, Helvetica, sans-serif;
-}
+    background: rgb(120, 0, 0);
 
-h1 {
-    color:rgb(255, 0, 0);
-    font-weight:13px;
-    text-shadow: 1px 1px gray;
-    font-size:xx-large;
-    font-family:arial; 
 }
-a {
-    color:slategray;
+h3,p,h2{
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-a :hover {
-    color:brown;
-}
-.smoothButton {
-    border:chartreuse;
+.smoothButton{
+    box-shadow: 1px 2px 4px 1px white;
+    width: 160px;
+    height: 50px;
     text-align: center;
-    color:brown;
-    border-radius: 100px;
-    padding: 10px 24px ;
-    background-color: rgb(227, 214, 199);
-    font-size: 16px ;
-    cursor: pointer;
+    color: rgb(121, 0, 0);
+    background: #ffffff;
+
+    z-index: 0;
+    border-radius: 50px
+}
+img{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    text-align: center;
+    width: 70px;
+    border: solid 5px rgb(120, 0, 0);
+    margin: auto;
+}
+#tit{
+    background-color: whitesmoke;
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+    color: rgb(120,0,0);
+}
+.what{
+    text-align: center;
+    background-color:whitesmoke;
+    color: rgb(120, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+    text-shadow: 1px 2px 3px white;
 }
