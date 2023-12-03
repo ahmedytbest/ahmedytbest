@@ -6,6 +6,7 @@ h3,p,h2,h4{
     color: whitesmoke;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: capitalize;
+    
 }
 .smoothButton{
     box-shadow: 1px 2px 4px 1px white;
@@ -52,7 +53,18 @@ img,#insta{
     text-shadow: 1px 2px 2px black;
 
 }
-#up{
+#awwp{
+    background-color: whitesmoke;
+    font-size: 30px;
+    color: rgb(120, 0, 0);
+    text-shadow: 1px 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 250px;
+}
+#podc{
+    height:100px;
     text-align: center;
     font-size: 70px;
     font-family:'Courier New', Courier, monospace;
@@ -66,12 +78,23 @@ img,#insta{
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#aw{
-    background-color: whitesmoke;
-    font-size: 30px;
-    color: rgb(120, 0, 0);
-    text-shadow: 1px 2px 2px black;
+
+#img1{
+    
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+     background: rgb(244,52,52) url(ph/final.svg) no-repeat bottom/contain padding-box;
+
+}
+#body1{
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(244,52,52);
+}
+#mainh4{ color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    width: 450px;
+
 }
